@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_Financeiro</class>
+ <widget class="QMainWindow" name="MainWindow_Financeiro">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArquivo">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuEditar">
+    <property name="title">
+     <string>Editar</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuExibir">
+    <property name="title">
+     <string>Exibir</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuGerenciar">
+    <property name="title">
+     <string>Gerenciar</string>
+    </property>
+    <addaction name="actionContas"/>
+    <addaction name="actionFormas_de_Pagamento"/>
+   </widget>
+   <addaction name="menuArquivo"/>
+   <addaction name="menuEditar"/>
+   <addaction name="menuExibir"/>
+   <addaction name="menuGerenciar"/>
+  </widget>
+  <action name="actionContas">
+   <property name="text">
+    <string>Contas</string>
+   </property>
+  </action>
+  <action name="actionFormas_de_Pagamento">
+   <property name="text">
+    <string>Formas de Pagamento</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
